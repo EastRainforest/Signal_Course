@@ -1,0 +1,22 @@
+ant:
+<ant>
+  <mkdir dir="D:\2020_Signal_Course\Project3\Project3\for_redistribution" />
+  <mkdir dir="D:\2020_Signal_Course\Project3\Project3\for_testing" />
+  <mkdir dir="D:\2020_Signal_Course\Project3\Project3\for_redistribution_files_only" />
+</ant>
+mcc -C -o Project3 -W WinMain:Project3 -T link:exe -d D:\2020_Signal_Course\Project3\Project3\for_testing -v D:\2020_Signal_Course\Project3\Project3.m -a D:\2020_Signal_Course\Project3\Project3.fig -a D:\2020_Signal_Course\Project3\StaticDI.m -a D:\2020_Signal_Course\Project3\StaticDO.m 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[¾¯¸æ: Adding path "D:\2020_Signal_Course\Project3" to Compiler path instance.] 
+Parsing file "D:\2020_Signal_Course\Project3\Project3.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "D:\2020_Signal_Course\Project3\Project3\for_testing\readme.txt".
+Packaging...
+Adding custom icon D:\2020_Signal_Course\Project3\Project3_resources\icon.ico to D:\2020_Signal_Course\Project3\Project3\for_testing\Project3.exe.
+Attempting to embed the CTF archive into the application D:\2020_Signal_Course\Project3\Project3\for_testing\Project3.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at D:\2020_Signal_Course\Project3\Project3\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 3 minutes and 31 seconds.
