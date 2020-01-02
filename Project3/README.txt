@@ -1,5 +1,5 @@
-Project3文件夹内包含的是项目三（模拟输出）的相关文件;
-包括代码、实验报告、项目运行过程中存储的数据及可执行文件;
+Project3文件夹内包含的是项目三（数字输入和数字输出）的相关文件;
+包括代码、实验报告及可执行文件;
 代码包括StaticDO.m、StaticDI以及Project3.m还有Project3.fig;
 实验报告包括word版和PDF版;
 Project3这个文件夹内包含利用matlab生成的可执行文件;
